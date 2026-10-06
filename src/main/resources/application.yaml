@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: co-stream
+server:
+  servlet:
+    context-path: /co-stream
