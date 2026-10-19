@@ -1,6 +1,5 @@
-package practice.mayank.co_stream.repositories;
+package practice.mayank.co_stream.repository;
 
-import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 import practice.mayank.co_stream.entity.Room;
