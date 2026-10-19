@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import practice.mayank.co_stream.entity.User;
 import practice.mayank.co_stream.exception.customexceptions.ResourceNotFoundException;
-import practice.mayank.co_stream.exception.customexceptions.TokenExpiredException;
+import practice.mayank.co_stream.security.exceptions.TokenExpiredException;
 import practice.mayank.co_stream.security.entity.RefreshToken;
 import practice.mayank.co_stream.security.repository.RefreshTokenRepository;
 
