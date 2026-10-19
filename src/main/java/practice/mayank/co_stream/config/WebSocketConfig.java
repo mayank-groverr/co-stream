@@ -19,7 +19,7 @@ import org.springframework.web.socket.config.annotation.StompEndpointRegistry;
 import org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurer;
 import practice.mayank.co_stream.security.IdAuthentication;
 import practice.mayank.co_stream.security.services.JwtService;
-import practice.mayank.co_stream.service.CustomUserDetailService;
+import practice.mayank.co_stream.security.services.CustomUserDetailService;
 
 
 @Configuration

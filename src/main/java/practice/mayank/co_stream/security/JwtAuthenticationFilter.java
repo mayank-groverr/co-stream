@@ -16,23 +16,17 @@ import org.springframework.http.ProblemDetail;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
 import org.springframework.web.context.request.ServletWebRequest;
 import org.springframework.web.filter.OncePerRequestFilter;
-import practice.mayank.co_stream.entity.User;
-import practice.mayank.co_stream.security.entity.Role;
 import practice.mayank.co_stream.exception.ErrorResponseUtil;
 import practice.mayank.co_stream.security.services.JwtService;
-import practice.mayank.co_stream.service.CustomUserDetailService;
-import practice.mayank.co_stream.service.UserService;
+import practice.mayank.co_stream.security.services.CustomUserDetailService;
 
 import java.io.IOException;
 import java.util.Collection;
-import java.util.List;
-import java.util.Set;
 
 @Component
 @RequiredArgsConstructor
