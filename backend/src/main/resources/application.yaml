@@ -1,6 +1,9 @@
 spring:
   application:
     name: co-stream
+  web:
+    resources:
+      add-mappings: false
 server:
   servlet:
     context-path: /co-stream
