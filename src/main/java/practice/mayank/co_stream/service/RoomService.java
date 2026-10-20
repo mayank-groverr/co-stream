@@ -149,7 +149,7 @@ public class RoomService {
         if (!isUserPresentInRoom(user.getId(), roomId)) {
             throw new AccessDeniedException("Not a member of this room");
         }
-        return roomMapper.roomToRoomResponseDto(room, getRoomCall(room.getRoomId()));
+        return roomMapper.roomToRoomResponseDto(room);
     }
 
 

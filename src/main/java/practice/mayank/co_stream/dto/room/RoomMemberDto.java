@@ -6,7 +6,7 @@ import practice.mayank.co_stream.entity.Membership;
 
 public record RoomMemberDto(
         UserResponse user,
-        Membership.Role role,
-        ActiveCallDto activeCall
+        Membership.Role role
+
 ) {
 }
